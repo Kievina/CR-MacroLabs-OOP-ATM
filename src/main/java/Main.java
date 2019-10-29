@@ -3,7 +3,7 @@
  */
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("                                                                                                    \n" +
                 ",-------.,--.            ,-----.          ,--.           \n" +
                 "`--.   / `--' ,---.     '  .--./ ,---.  ,-|  | ,---.     \n" +
@@ -21,7 +21,7 @@ public class Main {
 
             if (userYesOrNo.equalsIgnoreCase("yes")) {
 
-                Console.getUserInputInteger("Would you like to: "+ "\n1. Check your balance" + "\n2. Make a withdrawal" + "\n3. Make a deposit");
+                Console.getUserInputInteger("Would you like to: " + "\n1. Check your balance" + "\n2. Make a withdrawal" + "\n3. Make a deposit");
 
 //                Enter options for atm:
 //                1. check balance
@@ -47,6 +47,6 @@ public class Main {
                 "`--'  `--' `--`--'   `--'   `----'     `--`--'    `--'  `--'`--' `---' `----'    `-------'  `--`--'.-'  /    \n" +
                 "                                                                                                   `---'     ");
     }
-        
+
 
 }

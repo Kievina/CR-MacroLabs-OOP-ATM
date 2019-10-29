@@ -1,7 +1,7 @@
 public abstract class Account {
 
     private Integer accountNum;
-    private Double balance;
+    private Double balance;     // amount in account
     private char accountType;
 
     public Account() {}
